@@ -27,6 +27,7 @@
 
 .cover:hover::before {
   opacity: 0.8;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1000px) {
@@ -65,7 +66,6 @@
   max-width: 137px;
   text-decoration: none;
   color: white;
-  z-index: 3;
 }
 
 .cover__content-button:hover {
