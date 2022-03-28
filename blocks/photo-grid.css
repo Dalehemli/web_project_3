@@ -1,5 +1,5 @@
 .photo-grid {
-  margin: 0;
+  margin: 0 48px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -22,6 +22,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 16px;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
 }
 
 .photo-grid__list-item {
