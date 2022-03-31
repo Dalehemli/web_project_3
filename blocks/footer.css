@@ -2,3 +2,21 @@
   margin: 100px 0 24px 0;
   text-align: center;
 }
+
+.footer__text {
+  margin: 0;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .footer {
+    margin-top: 64px;
+    line-height: 1;
+  }
+}

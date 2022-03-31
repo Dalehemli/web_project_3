@@ -7,14 +7,19 @@
 .header__logo {
   width: 270px;
   height: 70px;
-  margin-bottom: 90px;
+  /* margin-bottom: 90px; */
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header {
     padding-top: 20px;
+  }
+  .header__logo {
+    width: 200px;
+    height: 51px;
+    margin-bottom: 50px;
   }
 }
