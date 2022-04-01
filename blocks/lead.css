@@ -17,7 +17,7 @@
 .lead__subtitle {
   font-size: 30px;
   line-height: 36px;
-  max-width: 700px;
+  max-width: 720px;
   text-align: center;
   font-weight: 400;
   margin: 0 auto 0;
@@ -41,6 +41,9 @@
     margin-bottom: 88px;
   }
   .lead__title {
+    max-width: 720px;
+  }
+  .lead__subtitle {
     max-width: 720px;
   }
 }
@@ -68,11 +71,10 @@
     font-size: 16px;
     margin-top: 16px;
     line-height: 1.1;
-  }
-  .lead {
     padding: 0 16px 0;
   }
   .lead__photo {
     margin-bottom: 64px;
+    width: 100%;
   }
 }

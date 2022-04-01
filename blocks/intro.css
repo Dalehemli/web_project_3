@@ -37,8 +37,11 @@
 
 @media screen and (max-width: 1100px) {
   .intro {
-    margin: 0 auto 90px;
+    margin: 0 auto 0;
     max-width: 720px;
+  }
+  .intro__statement {
+    margin-bottom: 90px;
   }
 }
 
