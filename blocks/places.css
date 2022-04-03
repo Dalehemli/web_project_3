@@ -73,7 +73,7 @@
   font-weight: 600;
   color: white;
   border-radius: 4px;
-  width: 210px;
+  width: 248px;
   max-height: 30px;
   padding: 13px 20px;
   text-decoration: none;
@@ -160,12 +160,12 @@
     line-height: 1.09;
   }
   .places__button {
-    width: 288px;
-    /* margin-left: calc((100% - 288px) / 2); */
+    /* width: 288px; */
+    margin-left: calc((100% - 288px) / 2);
     margin-bottom: 0;
   }
   .places__paragraph {
-    padding: 0 16px 0;
+    /* padding: 0 16px 0; */
     font-size: 16px;
     line-height: 26px;
   }
