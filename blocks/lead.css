@@ -64,7 +64,7 @@
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
-    max-width: 288px;
+    width: 288px;
     margin-bottom: 16px;
   }
   .lead__subtitle {
