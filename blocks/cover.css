@@ -1,7 +1,7 @@
 .cover {
   position: relative;
   margin: 105px auto 0 auto;
-  background-image: url("../images/__background.jpg");
+  background-image: url("../images/background.jpg");
   object-fit: cover;
   background-position: center;
   background-size: cover;
